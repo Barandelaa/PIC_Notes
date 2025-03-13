@@ -9,9 +9,11 @@ Be sure to implement all the PIOT-GDA-* issues.
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+
 Se ha implementado la capacidad de arrancar y detener el PerformanceManager además de la capacidad de monitorear la utilización de la CPU y la memoria.
 
 How does your implementation work?
+
 El PerformanceManager inicia las tasks de monitorizacion y tambien las detiene, estas tasks heredan de la clase BaseSystemUtilTask.
 
 ### Code Repository and Branch
