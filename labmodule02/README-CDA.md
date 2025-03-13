@@ -10,7 +10,7 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
-Se puede activar y parar el SystemPerformanceManager, que se ha conectado con el nucleo de la aplicación. Tabmien se ha implementado la base de las clases encargadas de recoger métricas de utilización de recursos (CPU y memoria) y se han conectado con el PerformanceManager para que sea capaz de controlarlas. 
+Se puede activar y parar el SystemPerformanceManager, que se ha conectado con el nucleo de la aplicación. Tambien se ha implementado la base de las clases encargadas de recoger métricas de utilización de recursos (CPU y memoria) y se han conectado con el PerformanceManager para que sea capaz de controlarlas. 
 
 How does your implementation work?
 
