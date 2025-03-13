@@ -9,8 +9,10 @@ Be sure to implement all the PIOT-GDA-* issues.
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+Se ha implementado la capacidad de arrancar y detener el PerformanceManager además de la capacidad de monitorear la utilización de la CPU y la memoria.
 
 How does your implementation work?
+El PerformanceManager inicia las tasks de monitorizacion y tambien las detiene, estas tasks heredan de la clase BaseSystemUtilTask.
 
 ### Code Repository and Branch
 
@@ -25,9 +27,9 @@ NOTE: The instructor will execute your unit tests. You only need to list each te
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
+- ConfigUtilTest
+- SystemCpuUtilTaskTest
+- SystemMemUtilTaskTest
 
 ### Integration Tests Executed
 
@@ -36,8 +38,8 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+- SystemPerformanceManagerTest
+- ConstrainedDeviceAppTest
+- GatewayDeviceAppTest
 
 EOF.
