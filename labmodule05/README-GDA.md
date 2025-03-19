@@ -39,7 +39,7 @@ since you need to ensure you haven't introduced regressions.
 - ActuatorDataTest
 - SensorDataTest
 - SystemPerformanceDataTest
-- SystemStateDataTest
+
 
 ### Integration Tests Executed
 
