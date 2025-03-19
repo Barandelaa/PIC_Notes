@@ -41,6 +41,6 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 - ConstrainedDeviceAppTest
 - SystemPerformanceManagerTest
-- SystemPerformanceManagerTest
+  
 
 EOF.
