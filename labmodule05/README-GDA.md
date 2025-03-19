@@ -51,6 +51,5 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 - GatewayDeviceAppTest
 - DeviceDataManagerNoCommsTest
 - DataIntegrationTest
-- SystemPerformanceManagerTest
 
 EOF.
