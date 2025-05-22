@@ -9,14 +9,16 @@ Be sure to implement all the PIOT-CDA-* issues (requirements) listed.
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+Se ha añadido la funcionalidad de conexión para el cliente, permitiéndole suscribirse y publicara distintos topics.
 
 How does your implementation work?
+Casi toda la funcionalidad tiene lugar en el MqttClientConnector. El DeviceDataManager usa la clase anterior para conectarse y suscribirse al topic.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch.
 
-URL: 
+URL: https://github.com/Barandelaa/PIC_Python/tree/lab06
 
 
 ### Unit Tests Executed
@@ -36,8 +38,8 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
+- MqttClientControlPacketTest
+- MqttClientConnectorTest
 - 
 
 EOF.
