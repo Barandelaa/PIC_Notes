@@ -10,7 +10,11 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Se añade la capacidad de publicar y suscribirse a topics utilizando Mosquitto.
+
 How does your implementation work?
+
+La funcionalidad se implementa en MqttClientConnector y son utilizadas por el DeviceDataManager.
 
 ### Code Repository and Branch
 
@@ -36,8 +40,8 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
+- MqttClientControlPacketTest
+- MqttClientConnectorTest
 - 
 
 EOF.
