@@ -10,13 +10,17 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Recibe de manera asíncrona la infromación procedente del CDA y la procesa. 
+
 How does your implementation work?
+
+Se usa MqttAsyncClient, en lugar del MqttClient normal y se adapta la clase MqttClientConnector, tambien se añade encriptación en la comunicación. Se implementa IMqttMessageListener para crear listenners en las suscripciones.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch.
 
-URL: 
+URL: https://github.com/Barandelaa/PIC_Java/tree/lab10
 
 
 
@@ -37,7 +41,7 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
+- MqttClientConnectorTest
 - 
 - 
 
