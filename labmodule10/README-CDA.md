@@ -10,13 +10,17 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Se han añadido métodos de encriptación para hacer más segura la conexión con el broker.
+
 How does your implementation work?
+
+La encripatación se hace mediante la función tls_set del mqttCLient según un archivo de certificado.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch.
 
-URL: 
+URL: https://github.com/Barandelaa/PIC_Python/tree/lab10
 
 
 ### Unit Tests Executed
@@ -36,8 +40,9 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+- MqttClientConnectorTest
+- DeviceDataManagerIntegrationTest
+- DeviceDataManagerWithCommsTest
+- DeviceDataManagerWithMqttClientOnly
 
 EOF.
