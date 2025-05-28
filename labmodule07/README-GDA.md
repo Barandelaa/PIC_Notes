@@ -45,3 +45,10 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 - 
 
 EOF.
+
+Wireshark (ConnectorTest):
+![imaxe](https://github.com/user-attachments/assets/e551779d-9d5c-4796-893e-897d2a7e3b74)
+
+Wireshark (packetTest):
+![imaxe](https://github.com/user-attachments/assets/bb8da551-f2a7-4204-b82c-9d8c8de49318)
+
