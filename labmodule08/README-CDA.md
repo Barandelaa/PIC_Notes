@@ -10,17 +10,16 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
-Se ha implementado un servidor CoAp para la comunicación entre las partes del programa.
 
 How does your implementation work?
 
-La clase CoapServerGateway activa el servidor CoAP y registra recursos siguiendo la estructura definida en ResourceNameEnum.
+
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch.
 
-URL: https://github.com/Barandelaa/PIC_Java/tree/lab08
+URL: 
 
 
 
@@ -41,7 +40,7 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- CoapServerGatewayTest
+- 
 - 
 - 
 
