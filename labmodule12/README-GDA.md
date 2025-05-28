@@ -10,13 +10,17 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Recibe los nuevos datos que se suben por mqtt y los conecta con el cloud igual que lo hacia con la información de los otros sensores y actuadores.
+
 How does your implementation work?
+
+Se ha modificado com ose lee el json por mqtt y se ha modificado el json que se sube a ubidots para contener la nueva información.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch.
 
-URL: 
+URL: https://github.com/Barandelaa/PIC_Java/tree/lab12
 
 
 
@@ -42,3 +46,18 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 - 
 
 EOF.
+
+
+
+Informacion subida a la nube por los actuadores:
+![image](https://github.com/user-attachments/assets/4cf2a683-fc92-4f76-b4ff-8d36963f8e47)
+
+Información subida por los sensores:
+![image](https://github.com/user-attachments/assets/0ed8a8e1-487f-4206-8666-650cb0c7c47b)
+
+Información del LightSensor implementado:
+![image](https://github.com/user-attachments/assets/d2e53982-c19b-48c2-814a-7d3d35c9e095)
+
+
+
+
