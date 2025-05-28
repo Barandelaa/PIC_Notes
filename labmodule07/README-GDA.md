@@ -20,7 +20,7 @@ La funcionalidad se implementa en MqttClientConnector y son utilizadas por el De
 
 NOTE: Be sure to include the branch.
 
-URL: 
+URL: https://github.com/Barandelaa/PIC_Java/tree/lab07
 
 
 ### Unit Tests Executed
