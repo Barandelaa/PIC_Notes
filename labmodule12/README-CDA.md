@@ -10,13 +10,17 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Se ha añadido la funcionalidad de un nuevo sensor simulado de luz, y u nactuador tambien simulado de alarma.
+
 How does your implementation work?
+
+AlarmActuatorEmulatorTask, LightSensorEmulatorTask se utilizan para simular el funcionamiento del sensor y actuador respectivamente y siguen el método de integración que siguen losi otros sensores y actuadores, su información es enviada por mqtt para conectarse con el GDA.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch.
 
-URL: 
+URL: https://github.com/Barandelaa/PIC_Python/tree/lab12
 
 
 ### Unit Tests Executed
